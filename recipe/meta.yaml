@@ -1,10 +1,10 @@
 package:
   name: travis-encrypt
-  version: "0.7.2"
+  version: "1.0.0"
 
 source:
-  url: https://files.pythonhosted.org/packages/63/ed/71a981d4aa842fb0ed827bcc0560c09392635210497d425b70452c7f3d14/travis-encrypt-0.7.2.tar.gz
-  sha256: 185a3a8a01be2fa4b88b7b2a0b7bbf8fbbe684f1e154cfbafcd4bd3d1bd01f94
+  url: https://files.pythonhosted.org/packages/ff/48/62e01fbc7a4090cb1298b3027fa81080c110c28ed99a8f98d58fc87e5de6/travis-encrypt-1.0.0.tar.gz
+  sha256: 9890807e0112ee8befcd0f4db320e4b58b7d5d8c7af2b3f28b51b8667f37a1c9
 build:
   number: 0
   entry_points:
@@ -18,10 +18,10 @@ requirements:
 
   run:
     - python
-    - click >=6.6
-    - cryptography >=1.7.1
+    - click >=6.7
+    - cryptography >=1.9
     - pyyaml >=3.12
-    - requests >=2.12.5
+    - requests >=2.18.1
 
 test:
   imports:
